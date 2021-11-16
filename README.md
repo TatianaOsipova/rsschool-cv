@@ -1,1 +1,0 @@
-https://TatianaOsipova.github.io/rsschool-cv/cv
