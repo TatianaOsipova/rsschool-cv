@@ -20,7 +20,7 @@ I have always admired people who know how to design and create. I want to do the
 * VSCode
 
 # Code example
-
+```
 function average(arr){
   if(arr.length === 0){
   return 0;
@@ -33,5 +33,7 @@ function average(arr){
 }
 console.log(average([1,2,3,4]));
 console.log(average([])); 
+```
+
 
 
