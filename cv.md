@@ -38,7 +38,7 @@ function average(arr){
 
 I'm in the process of learning
 
-# Language
+# Languages
 
 * Russian - native
 * English - intermediate
