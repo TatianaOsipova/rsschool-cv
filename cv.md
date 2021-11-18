@@ -35,7 +35,7 @@ function average(arr){
 
 # Work experience
 
-I'm in the process of learning
+I'm in the process of learning.
 
 # Languages
 
