@@ -31,7 +31,6 @@ function average(arr){
 }
   return sum / arr.length
 }
-
 ```
 
 # Work experience
