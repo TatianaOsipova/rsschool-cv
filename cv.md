@@ -31,9 +31,15 @@ function average(arr){
 }
   return sum / arr.length
 }
-console.log(average([1,2,3,4]));
-console.log(average([])); 
+
 ```
 
+# Work experience
 
+I'm in the process of learning
+
+# Language
+
+* Russian - native
+* English - intermediate
 
