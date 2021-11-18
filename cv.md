@@ -9,7 +9,7 @@
 
 # About myself
 
-I have always admired people who know how to design and create. I want to do the same. I am confident that my desire and love for learning will help me achieve my goal.
+I have always admired people who know how to design and create. I want to do the same. I'm confident that my desire and love for learning will help me achieve my goal.
 
 # Skills
 
