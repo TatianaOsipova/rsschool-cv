@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    font-family: 'RPT+Serif',sans-serif;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.intro__img{
+    background-color:black;
+    padding: 50px;
+}
+
+.intro__name{
+    margin-right: 300px
+}
+
+.intro__name h1{
+    font-size: 48px;
+    line-height: 60px;
+    font-family: 'RPT+Serif',sans-serif;
+    letter-spacing: 5px;
+    max-width: 240px;
+    text-transform: uppercase;
+
+}
+
+
+
+.intro__descr_item{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    
+}
+
+.intro_link-icon{
+    margin-right: 50px;
+}
+
+.intro__link{
+    text-decoration: none;
+    color:black;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
