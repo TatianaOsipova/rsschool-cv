@@ -1,38 +1,38 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.body{
-    font-family: 'RPT+Serif',sans-serif;
+body {
+    font-family: 'PT Serif', sans-serif;
 }
 
-.container{
+.container {
     max-width: 1440px;
     margin: 0 auto;
 }
 
-.intro{
+.intro {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 
 }
-.intro__img{
-    background-color:black;
+
+.intro__img {
+    background-color: black;
     padding: 50px;
 }
 
-.intro__name{
+.intro__name {
     margin-right: 300px
 }
 
-.intro__name h1{
+.intro__name h1 {
     font-size: 48px;
     line-height: 60px;
-    font-family: 'RPT+Serif',sans-serif;
     letter-spacing: 5px;
     max-width: 240px;
     text-transform: uppercase;
@@ -41,22 +41,182 @@
 
 
 
-.intro__descr_item{
+.intro__descr_item {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 20px;
-    
+
 }
 
-.intro_link-icon{
+.intro_link-icon {
     margin-right: 50px;
 }
 
-.intro__link{
+.intro__link {
     text-decoration: none;
-    color:black;
+    color: black;
     font-size: 24px;
     font-weight: bold;
-    
+
+}
+
+
+
+.main__box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.title {
+    background-color: black;
+    padding: 29.5px;
+    min-height: 700px;
+
+}
+
+.name {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    margin-left: 45px;
+}
+
+.title__descr {
+    max-width: 300px;
+    line-height: 50px;
+    Font-size: 24px;
+    margin-left: 45px;
+    color: #fff;
+
+}
+
+
+.descr__block-item {
+    position: relative;
+    padding: 0 20px;
+    font-size: 0;
+
+}
+
+.descr__block-item h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    position: relative;
+    margin-left: 60px;
+    font-weight: 700;
+
+
+}
+
+.first h3::before {
+    content: '';
+    background-image: url(/img/skills\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    transform: translateX(-188%);
+
+}
+
+.second h3::before {
+    content: '';
+    background-image: url(/img/work\ experience\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    transform: translateX(-188%);
+
+}
+
+.third h3::before {
+    content: '';
+    background-image: url(/img/languages\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    transform: translateX(-188%);
+
+}
+
+.descr__block-item li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.descr__block-item ul {
+    border-left: black solid 5px;
+    margin-bottom: 70px;
+}
+
+/* .descr__block-item::before{
+    content:'';
+    background-image: url(/img/line.svg);
+    background-size: cover;
+    background-position: right;
+    transform: translateY(-12%);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0px;
+    height: 290px;
+    width: 10px;
+    padding: 4px */
+
+.descr__block-items-right {
+    max-width: 400px;
+}
+
+.descr__block-items-right h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: -3px;
+    margin-bottom: 50px;
+    margin-left: px;
+    font-weight: 700;
+}
+
+
+.code_exemple {
+    background: #000;
+    padding: 50px;
+    align-items: center;
+    padding-bottom: 80px
+}
+
+.descr__block-items-right code  {
+    text-align: center;
+    max-width:; 
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff
 }
