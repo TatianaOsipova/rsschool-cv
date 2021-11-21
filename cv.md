@@ -15,7 +15,7 @@ I have always admired people who know how to design and create. I want to do the
 
 * QA Manual basics
 * JavaScript Syntax basics
-* HTML, CSS Syntax basics
+* HTML5, CSS3 Syntax basics
 * Figma
 * VSCode
 
