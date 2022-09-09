@@ -1,0 +1,356 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(187, 244, 209);
+}
+
+.main {
+    background: rgb(187, 244, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1250px;
+    min-height: 1000px;
+    background: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .header {
+    position: relative;
+    background: #12410a;
+    padding: 40px;
+}
+
+.portfolio {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.portfolio .image {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.portfolio .image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.contactInfo {
+    padding-top: 40px;
+}
+
+.title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.contactInfo ul {
+    position: relative;
+}
+
+.contactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.contactInfo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contactInfo a:hover {
+    color: #eaa30a;
+}
+
+.phone::before {
+    content: '';
+    position: absolute;
+    background-image: url(../img/phone.svg);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    transform: translateX(-80%);
+}
+
+.data ul li:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.data .info:hover {
+    color: #eaa30a;
+    transition: 1s;
+}
+
+.email::before {
+    content: '';
+    position: absolute;
+    background-image: url(../img/email.svg);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    transform: translateX(-80%);
+}
+
+.github::before {
+    content: '';
+    position: absolute;
+    background-image: url(../img/gh.svg);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    transform: translateX(-80%);
+}
+
+.telegram::before {
+    content: '';
+    position: absolute;
+    background-image: url(../img/telegram.svg);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    transform: translateX(-80%);
+}
+
+.container .about {
+    position: relative;
+    background: rgb(245, 247, 244);
+    padding: 40px;
+}
+
+.content {
+    margin-bottom: 50px;
+}
+
+.content:last-child {
+    margin-bottom: 0;
+}
+
+.title2 {
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333;
+}
+
+.content-code {
+    margin: 0 auto;
+    width: 400px;
+    background: rgb(187, 244, 209);
+}
+
+code {
+    white-space: pre;
+}
+
+.content .box {
+    display: flex;
+    flex-direction: row;
+    margin: 28px 0;
+}
+
+.content .box .year {
+    min-width: 150px;
+}
+
+.content .box .year h5 {
+    text-transform: uppercase;
+    color: #4f5a5f;
+    font-weight: 600;
+}
+
+.content ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.content ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.info {
+    margin-left: 40px;
+}
+
+.content ul li:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.content a {
+    text-decoration: none;
+    color: black;
+}
+
+.content a:hover {
+    color: #eaa30a;
+}
+
+.music::before {
+    content: '';
+    position: absolute;
+    background-image: url(../img/music.svg);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    transform: translateX(-80%);
+}
+
+.sport::before {
+    content: '';
+    position: absolute;
+    background-image: url(../img/sport.svg);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    transform: translateX(-80%);
+}
+
+.puzzle::before {
+    content: '';
+    position: absolute;
+    background-image: url(../img/puzzle.svg);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    transform: translateX(-80%);
+}
+
+.floristic::before {
+    content: '';
+    position: absolute;
+    background-image: url(../img/floristic.svg);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    transform: translateX(-80%);
+}
+
+.container_footer {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+
+.footer_title {
+    font-size: 20px;
+    margin-left: 120px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.footer_icon {
+    width: 120px;
+    height: 60px;
+    margin-right: 40px;
+    border-radius: 5%;
+    background: url(../img/rss.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer_icon:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+@media (max-width: 1105px) {
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .content ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 600px) {
+    .content .box {
+        flex-direction: column;
+    }
+
+    .content .box .year {
+        margin-bottom: 5px;
+    }
+
+    .footer_title {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 400px) {
+    .footer_title {
+        font-size: 11px;
+        margin-left: 50px;
+        font-weight: 600;
+    }
+
+    .footer_icon {
+        width: 50px;
+        height: 20px;
+    }
+}
