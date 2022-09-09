@@ -58,6 +58,23 @@ function average(arr){
 ```
 
 
+# Languages 
+
+
+* Russian - native
+* English - intermediate
+
+
+# Hobbies
+
+
+* Music
+* Sport
+* Puzzle
+* Floristic
+
+
+
 
 
 
