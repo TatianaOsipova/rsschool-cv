@@ -186,13 +186,13 @@ p {
 
 .content-code {
     margin: 0 auto;
-    width: 400px;
+    width: 500px;
     background: rgb(187, 244, 209);
 }
 
 code {
     white-space: pre;
-}
+  }
 
 .content .box {
     display: flex;
