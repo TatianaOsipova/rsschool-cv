@@ -12,6 +12,19 @@
 
 # About myself
 
+
 I have always admired people who know how to design and create. I want to do the same. I'm sure that my desire and love for learning will help me achieve my goal.
+
+
+# Skills
+
+
+* HTML5 Sintax Bacics
+* CSS3 Sintax Bacics
+* JS Sintax Bacics
+* VS Code
+* Figma 
+
+
 
 
