@@ -19,10 +19,10 @@ I have always admired people who know how to design and create. I want to do the
 # Education
 
 
-* 1997 - 2000 Nizhny Novgorod Pedagogical College
-* Degree: Social pedagogue
-* 2000 - 2003 Nizhny Novgorod State Pedagogical University
-* Degree: Master in Social pedagogue
+* 1997 - 2000 Nizhny Novgorod Pedagogical College.
+Degree: Social pedagogue
+* 2000 - 2003 Nizhny Novgorod State Pedagogical University.
+Degree: Master in Social pedagogue
 
 
 # Skills
