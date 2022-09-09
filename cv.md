@@ -28,9 +28,9 @@ Degree: Master in Social pedagogue
 # Skills
 
 
-* HTML5 Sintax Bacics
-* CSS3 Sintax Bacics
-* JS Sintax Bacics
+* HTML5 Syntax Basics
+* CSS3 Syntax Basics
+* JS Syntax Basics
 * VS Code
 * Figma 
 
@@ -49,7 +49,7 @@ function average(arr){
         return 0;
     }
     let sum = 0;
-    for(let i=0; i<arr.length; i++>){
+    for(let i=0; i<arr.length; i++){
         sum += arr[i];
     }
     return sum / arr.length;
