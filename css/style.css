@@ -303,12 +303,12 @@ code {
 .footer_icon {
     width: 120px;
     height: 60px;
-    margin-right: 40px;
+    /* margin-right: 40px;
     border-radius: 5%;
     background: url(../img/rss.svg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 .footer_icon:hover {
