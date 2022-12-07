@@ -6,11 +6,11 @@
 }
 
 body {
-    background: linear-gradient(#e66465, #9198e5);;
+    background: rgb(187, 244, 209);
 }
 
 .main {
-    background: linear-gradient(#e66465, #9198e5);
+    background: rgb(187, 244, 209);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@ body {
 
 .container .header {
     position: relative;
-    background: #a860c9;
+    background: #12410a;
     padding: 40px;
 }
 
