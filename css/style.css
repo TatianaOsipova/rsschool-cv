@@ -9,6 +9,8 @@ body {
     background: rgb(187, 244, 209);
 }
 
+/* start styling main */
+
 .main {
     background: rgb(187, 244, 209);
     display: flex;
@@ -285,6 +287,8 @@ code {
     max-width: 1250px;
     margin: 0 auto;
 }
+
+/* end styling main */
 
 .footer_content {
     display: flex;
