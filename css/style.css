@@ -290,6 +290,8 @@ code {
 
 /* end styling main */
 
+/* start styling footer */
+
 .footer_content {
     display: flex;
     justify-content: space-between;
@@ -323,6 +325,8 @@ code {
 .img_footer:hover{
     transition: 0.5s;
 }
+
+/* end styling footer */
 
 @media (max-width: 1105px) {
     .container {
