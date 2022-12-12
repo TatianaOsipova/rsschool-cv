@@ -316,6 +316,10 @@ code {
     transform: scale(1.2);
 }
 
+.img_footer:hover{
+    transition: 0.5s;
+}
+
 @media (max-width: 1105px) {
     .container {
         margin: 10px;
