@@ -9,6 +9,8 @@ body {
     background: rgb(187, 244, 209);
 }
 
+/* start styling main */
+
 .main {
     background: rgb(187, 244, 209);
     display: flex;
@@ -188,6 +190,7 @@ p {
     margin: 0 auto;
     width: 500px;
     background: rgb(187, 244, 209);
+    box-shadow: 0px 0px 15px 10px #bfebcd;
 }
 
 code {
@@ -285,6 +288,10 @@ code {
     margin: 0 auto;
 }
 
+/* end styling main */
+
+/* start styling footer */
+
 .footer_content {
     display: flex;
     justify-content: space-between;
@@ -300,21 +307,28 @@ code {
     font-weight: 600;
 }
 
+.footer_year{
+    font-size: 20px;
+    font-weight: 600;
+}
+
 .footer_icon {
     width: 120px;
     height: 60px;
-    /* margin-right: 40px;
-    border-radius: 5%;
-    background: url(../img/rss.svg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
 }
 
 .footer_icon:hover {
     transition: 0.5s;
     transform: scale(1.2);
 }
+
+.img_footer:hover{
+    transition: 0.5s;
+}
+
+/* end styling footer */
+
+/* start adaptive cv */
 
 @media (max-width: 1105px) {
     .container {
@@ -354,3 +368,5 @@ code {
         height: 20px;
     }
 }
+
+/* end adaptive cv */
