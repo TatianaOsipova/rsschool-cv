@@ -328,6 +328,8 @@ code {
 
 /* end styling footer */
 
+/* start adaptive cv */
+
 @media (max-width: 1105px) {
     .container {
         margin: 10px;
@@ -366,3 +368,5 @@ code {
         height: 20px;
     }
 }
+
+/* end adaptive cv */
