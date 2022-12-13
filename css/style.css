@@ -9,7 +9,7 @@ body {
     background: rgb(187, 244, 209);
 }
 
-/* start styling main */
+/* start styling content cv */
 
 .content__cv {
     background: rgb(187, 244, 209);
@@ -109,6 +109,7 @@ body {
 
 .contactInfo a:hover {
     color: #eaa30a;
+
 }
 
 .phone::before {
@@ -121,14 +122,17 @@ body {
     transform: translateX(-80%);
 }
 
+.data ul li{
+    transition: 1.5s;
+}
+
 .data ul li:hover {
     transform: scale(1.1);
-    transition: 1s_;
+    transition: 1.5s;
 }
 
 .data .info:hover {
     color: #eaa30a;
-    transition: 1s;
 }
 
 .email::before {
@@ -175,7 +179,7 @@ body {
     margin-bottom: 0;
 }
 
-.title2 {
+.about__title {
     color: #003147;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -229,9 +233,13 @@ code {
     margin-left: 40px;
 }
 
+.content ul li{
+    transition: 1.5s;
+}
+
 .content ul li:hover {
     transform: scale(1.2);
-    transition: 0.5s;
+    transition: 1.5s;
 }
 
 .content a {
@@ -283,7 +291,7 @@ code {
     transform: translateX(-80%);
 }
 
-/* end styling main */
+/* end styling content cv*/
 
 /* start styling footer */
 
@@ -319,7 +327,6 @@ code {
 }
 
 .footer__icon:hover {
-    /* transition: 3s linear; */
     transform: scale(1.2);
 }
 
